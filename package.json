@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start:dev": "pm2-runtime ecosystem.config.js --only app-dev",
-    "start": "npm run build && pm2 install typescript && pm2-runtime ecosystem.config.js --only app",
+    "start": "npm run build && pm2-runtime ecosystem.config.js --only app",
     "build": "tsc"
   },
   "author": "",
